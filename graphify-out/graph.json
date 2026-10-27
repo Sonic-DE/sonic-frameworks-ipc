@@ -1,0 +1,6679 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "autotests_servertest_servertest",
+      "label": "ServerTest",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "norm_label": "servertest",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L59"
+    },
+    {
+      "id": "src_client_qtimer",
+      "label": "QTimer",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "norm_label": "qtimer",
+      "source_file": "src/client.h",
+      "source_location": "L15"
+    },
+    {
+      "id": "src_server_usersockettesting",
+      "label": "UserSocketTesting",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "usersockettesting",
+      "source_file": "src/server.cpp",
+      "source_location": "L24"
+    },
+    {
+      "id": "src_client_connection",
+      "label": "Connection",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "connection",
+      "source_file": "src/client.h",
+      "source_location": "L19"
+    },
+    {
+      "id": "src_client_qlocalsocket",
+      "label": "QLocalSocket",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "qlocalsocket",
+      "source_file": "src/client.h",
+      "source_location": "L14"
+    },
+    {
+      "id": "src_connection_qlocalsocket",
+      "label": "QLocalSocket",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "qlocalsocket",
+      "source_file": "src/connection.h",
+      "source_location": "L14"
+    },
+    {
+      "id": "src_server_connection",
+      "label": "Connection",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "connection",
+      "source_file": "src/server.h",
+      "source_location": "L16"
+    },
+    {
+      "id": "autotests_frametest_frametest",
+      "label": "FrameTest",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "norm_label": "frametest",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L25"
+    },
+    {
+      "id": "src_frame_frame",
+      "label": "Frame",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "frame",
+      "source_file": "src/frame.h",
+      "source_location": "L24"
+    },
+    {
+      "id": "src_server_qlocalserver",
+      "label": "QLocalServer",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Sonic IPC",
+      "file_type": "code",
+      "norm_label": "qlocalserver",
+      "source_file": "src/server.h",
+      "source_location": "L12"
+    },
+    {
+      "id": "autotests_servertest_connectclient",
+      "label": "connectClient()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "connectToServer",
+            "receiver_type": "Client",
+            "lang": "cpp",
+            "line": "L45"
+          },
+          {
+            "callee": "isEmpty",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L46"
+          },
+          {
+            "callee": "wait",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L46"
+          },
+          {
+            "callee": "first",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L49"
+          }
+        ]
+      },
+      "norm_label": "connectclient()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L42"
+    },
+    {
+      "id": "autotests_servertest_echoframes",
+      "label": "echoFrames()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "connect",
+            "receiver_type": "QObject",
+            "lang": "cpp",
+            "line": "L34"
+          }
+        ]
+      },
+      "norm_label": "echoframes()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L32"
+    },
+    {
+      "id": "autotests_servertest_modeof",
+      "label": "modeOf()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "encodeName",
+            "receiver_type": "QFile",
+            "lang": "cpp",
+            "line": "L55"
+          }
+        ]
+      },
+      "norm_label": "modeof()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L52"
+    },
+    {
+      "id": "autotests_servertest_servertest_blockingrequestkeepseventloopresponsive",
+      "label": ".blockingRequestKeepsEventLoopResponsive()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "listen",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L194"
+          },
+          {
+            "callee": "run",
+            "receiver_type": "QtConcurrent",
+            "lang": "cpp",
+            "line": "L204"
+          },
+          {
+            "callee": "msleep",
+            "receiver_type": "QThread",
+            "lang": "cpp",
+            "line": "L206"
+          },
+          {
+            "callee": "request",
+            "receiver_type": "Client",
+            "lang": "cpp",
+            "line": "L207"
+          }
+        ]
+      },
+      "norm_label": ".blockingrequestkeepseventloopresponsive()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L190"
+    },
+    {
+      "id": "autotests_servertest_servertest_broadcasttotwoclients",
+      "label": ".broadcastToTwoClients()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "listen",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L99"
+          },
+          {
+            "callee": "connections",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L105"
+          },
+          {
+            "callee": "broadcast",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L108"
+          },
+          {
+            "callee": "size",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L109"
+          },
+          {
+            "callee": "first",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L111"
+          }
+        ]
+      },
+      "norm_label": ".broadcasttotwoclients()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L96"
+    },
+    {
+      "id": "autotests_servertest_servertest_chownkeepsmodeandaccess",
+      "label": ".chownKeepsModeAndAccess()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "listen",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L159"
+          },
+          {
+            "callee": "fullServerName",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L160"
+          },
+          {
+            "callee": "encodeName",
+            "receiver_type": "QFile",
+            "lang": "cpp",
+            "line": "L161"
+          }
+        ]
+      },
+      "norm_label": ".chownkeepsmodeandaccess()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L156"
+    },
+    {
+      "id": "autotests_servertest_servertest_cleanup",
+      "label": ".cleanup()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "setUserSocketFallbackForTesting",
+            "receiver_type": "Internal",
+            "lang": "cpp",
+            "line": "L78"
+          }
+        ]
+      },
+      "norm_label": ".cleanup()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L76"
+    },
+    {
+      "id": "autotests_servertest_servertest_disconnectfromserverstopsreconnecting",
+      "label": ".disconnectFromServerStopsReconnecting()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "listen",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L337"
+          },
+          {
+            "callee": "setReconnectInterval",
+            "receiver_type": "Client",
+            "lang": "cpp",
+            "line": "L339"
+          },
+          {
+            "callee": "connectToServer",
+            "receiver_type": "Client",
+            "lang": "cpp",
+            "line": "L341"
+          },
+          {
+            "callee": "size",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L342"
+          },
+          {
+            "callee": "disconnectFromServer",
+            "receiver_type": "Client",
+            "lang": "cpp",
+            "line": "L343"
+          },
+          {
+            "callee": "reset",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L344"
+          },
+          {
+            "callee": "qWait",
+            "receiver_type": "QTest",
+            "lang": "cpp",
+            "line": "L347"
+          }
+        ]
+      },
+      "norm_label": ".disconnectfromserverstopsreconnecting()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L334"
+    },
+    {
+      "id": "autotests_servertest_servertest_init",
+      "label": ".init()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "norm_label": ".init()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L70"
+    },
+    {
+      "id": "autotests_servertest_servertest_peercredentials",
+      "label": ".peerCredentials()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "listen",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L117"
+          },
+          {
+            "callee": "connections",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L120"
+          }
+        ]
+      },
+      "norm_label": ".peercredentials()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L114"
+    },
+    {
+      "id": "autotests_servertest_servertest_private",
+      "label": ".private()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "norm_label": ".private()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L61"
+    },
+    {
+      "id": "autotests_servertest_servertest_protocolerrordisconnectspeer",
+      "label": ".protocolErrorDisconnectsPeer()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "listen",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L130"
+          },
+          {
+            "callee": "wait",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L135"
+          },
+          {
+            "callee": "first",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L136"
+          },
+          {
+            "callee": "size",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L143"
+          }
+        ]
+      },
+      "norm_label": ".protocolerrordisconnectspeer()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L127"
+    },
+    {
+      "id": "autotests_servertest_servertest_reconnectafterserverrestart",
+      "label": ".reconnectAfterServerRestart()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "listen",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L295"
+          },
+          {
+            "callee": "setReconnectInterval",
+            "receiver_type": "Client",
+            "lang": "cpp",
+            "line": "L297"
+          },
+          {
+            "callee": "connectToServer",
+            "receiver_type": "Client",
+            "lang": "cpp",
+            "line": "L299"
+          },
+          {
+            "callee": "size",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L300"
+          },
+          {
+            "callee": "reset",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L302"
+          },
+          {
+            "callee": "connection",
+            "receiver_type": "Client",
+            "lang": "cpp",
+            "line": "L308"
+          },
+          {
+            "callee": "wait",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L312"
+          },
+          {
+            "callee": "first",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L313"
+          }
+        ]
+      },
+      "norm_label": ".reconnectafterserverrestart()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L292"
+    },
+    {
+      "id": "autotests_servertest_servertest_rejectedclientstopsreconnecting",
+      "label": ".rejectedClientStopsReconnecting()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "listen",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L319"
+          },
+          {
+            "callee": "setReconnectInterval",
+            "receiver_type": "Client",
+            "lang": "cpp",
+            "line": "L321"
+          },
+          {
+            "callee": "connectToServer",
+            "receiver_type": "Client",
+            "lang": "cpp",
+            "line": "L325"
+          },
+          {
+            "callee": "size",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L326"
+          },
+          {
+            "callee": "connection",
+            "receiver_type": "Client",
+            "lang": "cpp",
+            "line": "L327"
+          },
+          {
+            "callee": "wait",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L328"
+          },
+          {
+            "callee": "qWait",
+            "receiver_type": "QTest",
+            "lang": "cpp",
+            "line": "L329"
+          }
+        ]
+      },
+      "norm_label": ".rejectedclientstopsreconnecting()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L316"
+    },
+    {
+      "id": "autotests_servertest_servertest_requestandresponse",
+      "label": ".requestAndResponse()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "listen",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L85"
+          },
+          {
+            "callee": "wait",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L91"
+          },
+          {
+            "callee": "first",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L92"
+          }
+        ]
+      },
+      "norm_label": ".requestandresponse()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L81"
+    },
+    {
+      "id": "autotests_servertest_servertest_stalesocketrecovery",
+      "label": ".staleSocketRecovery()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "encodeName",
+            "receiver_type": "QFile",
+            "lang": "cpp",
+            "line": "L174"
+          },
+          {
+            "callee": "constData",
+            "receiver_type": "QByteArray",
+            "lang": "cpp",
+            "line": "L175"
+          },
+          {
+            "callee": "size",
+            "receiver_type": "QByteArray",
+            "lang": "cpp",
+            "line": "L175"
+          },
+          {
+            "callee": "exists",
+            "receiver_type": "QFile",
+            "lang": "cpp",
+            "line": "L178"
+          },
+          {
+            "callee": "listen",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L181"
+          },
+          {
+            "callee": "listen",
+            "receiver_type": "Client",
+            "lang": "cpp",
+            "line": "L185"
+          }
+        ]
+      },
+      "norm_label": ".stalesocketrecovery()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L168"
+    },
+    {
+      "id": "autotests_servertest_servertest_useraccesssocketmode",
+      "label": ".userAccessSocketMode()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "listen",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L150"
+          },
+          {
+            "callee": "fullServerName",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L151"
+          }
+        ]
+      },
+      "norm_label": ".useraccesssocketmode()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L147"
+    },
+    {
+      "id": "autotests_servertest_servertest_usersocketpathfallback",
+      "label": ".userSocketPathFallback()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "setUserSocketFallbackForTesting",
+            "receiver_type": "Internal",
+            "lang": "cpp",
+            "line": "L229"
+          },
+          {
+            "callee": "number",
+            "receiver_type": "QString",
+            "lang": "cpp",
+            "line": "L230"
+          },
+          {
+            "callee": "userSocketPath",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L231"
+          }
+        ]
+      },
+      "norm_label": ".usersocketpathfallback()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L225"
+    },
+    {
+      "id": "autotests_servertest_servertest_usersocketpathrefusesunsafedirectories",
+      "label": ".userSocketPathRefusesUnsafeDirectories()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "number",
+            "receiver_type": "QString",
+            "lang": "cpp",
+            "line": "L248"
+          },
+          {
+            "callee": "link",
+            "receiver_type": "QFile",
+            "lang": "cpp",
+            "line": "L251"
+          },
+          {
+            "callee": "encodeName",
+            "receiver_type": "QFile",
+            "lang": "cpp",
+            "line": "L254"
+          },
+          {
+            "callee": "setUserSocketFallbackForTesting",
+            "receiver_type": "Internal",
+            "lang": "cpp",
+            "line": "L259"
+          },
+          {
+            "callee": "ignoreMessage",
+            "receiver_type": "QTest",
+            "lang": "cpp",
+            "line": "L260"
+          },
+          {
+            "callee": "userSocketPath",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L261"
+          }
+        ]
+      },
+      "norm_label": ".usersocketpathrefusesunsafedirectories()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L243"
+    },
+    {
+      "id": "autotests_servertest_servertest_usersocketpathrefusesunsafedirectories_data",
+      "label": ".userSocketPathRefusesUnsafeDirectories_data()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "addColumn<QString>",
+            "receiver_type": "QTest",
+            "lang": "cpp",
+            "line": "L237"
+          },
+          {
+            "callee": "newRow",
+            "receiver_type": "QTest",
+            "lang": "cpp",
+            "line": "L238"
+          }
+        ]
+      },
+      "norm_label": ".usersocketpathrefusesunsafedirectories_data()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L235"
+    },
+    {
+      "id": "autotests_servertest_servertest_usersocketpathusesruntimelocation",
+      "label": ".userSocketPathUsesRuntimeLocation()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "setPermissions",
+            "receiver_type": "QFile",
+            "lang": "cpp",
+            "line": "L220"
+          },
+          {
+            "callee": "path",
+            "receiver_type": "QTemporaryDir",
+            "lang": "cpp",
+            "line": "L220"
+          },
+          {
+            "callee": "encodeName",
+            "receiver_type": "QFile",
+            "lang": "cpp",
+            "line": "L221"
+          },
+          {
+            "callee": "userSocketPath",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L222"
+          }
+        ]
+      },
+      "norm_label": ".usersocketpathusesruntimelocation()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L217"
+    },
+    {
+      "id": "autotests_servertest_servertest_versionrejection",
+      "label": ".versionRejection()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "listen",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L267"
+          },
+          {
+            "callee": "size",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L272"
+          },
+          {
+            "callee": "first",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L273"
+          },
+          {
+            "callee": "wait",
+            "receiver_type": "QSignalSpy",
+            "lang": "cpp",
+            "line": "L281"
+          },
+          {
+            "callee": "contains",
+            "receiver_type": "QString",
+            "lang": "cpp",
+            "line": "L286"
+          },
+          {
+            "callee": "connections",
+            "receiver_type": "Server",
+            "lang": "cpp",
+            "line": "L289"
+          }
+        ]
+      },
+      "norm_label": ".versionrejection()",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L264"
+    },
+    {
+      "id": "src_server_server_acceptconnections",
+      "label": "Server::acceptConnections()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "server::acceptconnections()",
+      "source_file": "src/server.cpp",
+      "source_location": "L135"
+    },
+    {
+      "id": "src_server_server_broadcast",
+      "label": "Server::broadcast()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "server::broadcast()",
+      "source_file": "src/server.cpp",
+      "source_location": "L123"
+    },
+    {
+      "id": "src_server_server_close",
+      "label": "Server::close()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "server::close()",
+      "source_file": "src/server.cpp",
+      "source_location": "L110"
+    },
+    {
+      "id": "src_server_server_errorstring",
+      "label": "Server::errorString()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "server::errorstring()",
+      "source_file": "src/server.cpp",
+      "source_location": "L105"
+    },
+    {
+      "id": "src_server_server_fullservername",
+      "label": "Server::fullServerName()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "server::fullservername()",
+      "source_file": "src/server.cpp",
+      "source_location": "L100"
+    },
+    {
+      "id": "src_server_server_listen",
+      "label": "Server::listen()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "server::listen()",
+      "source_file": "src/server.cpp",
+      "source_location": "L73"
+    },
+    {
+      "id": "src_server_server_server",
+      "label": "Server::Server()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "server::server()",
+      "source_file": "src/server.cpp",
+      "source_location": "L59"
+    },
+    {
+      "id": "src_server_server_usersocketpath",
+      "label": "Server::userSocketPath()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "writableLocation",
+            "receiver_type": "QStandardPaths",
+            "lang": "cpp",
+            "line": "L151"
+          },
+          {
+            "callee": "isEmpty",
+            "receiver_type": "QString",
+            "lang": "cpp",
+            "line": "L152"
+          },
+          {
+            "callee": "number",
+            "receiver_type": "QString",
+            "lang": "cpp",
+            "line": "L157"
+          },
+          {
+            "callee": "encodeName",
+            "receiver_type": "QFile",
+            "lang": "cpp",
+            "line": "L158"
+          },
+          {
+            "callee": "constData",
+            "receiver_type": "QByteArray",
+            "lang": "cpp",
+            "line": "L159"
+          }
+        ]
+      },
+      "norm_label": "server::usersocketpath()",
+      "source_file": "src/server.cpp",
+      "source_location": "L148"
+    },
+    {
+      "id": "src_server_setusersocketfallbackfortesting",
+      "label": "setUserSocketFallbackForTesting()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "setusersocketfallbackfortesting()",
+      "source_file": "src/server.cpp",
+      "source_location": "L173"
+    },
+    {
+      "id": "src_server_socketoptions",
+      "label": "socketOptions()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "socketoptions()",
+      "source_file": "src/server.cpp",
+      "source_location": "L35"
+    },
+    {
+      "id": "src_server_somebodylistens",
+      "label": "somebodyListens()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "somebodylistens()",
+      "source_file": "src/server.cpp",
+      "source_location": "L49"
+    },
+    {
+      "id": "src_client_client_connection",
+      "label": "Client::connection()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "client::connection()",
+      "source_file": "src/client.cpp",
+      "source_location": "L59"
+    },
+    {
+      "id": "src_client_qobject",
+      "label": "QObject()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "qobject()",
+      "source_file": "src/client.h",
+      "source_location": "L26"
+    },
+    {
+      "id": "src_connection_connection",
+      "label": "Connection()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "connection()",
+      "source_file": "src/connection.h",
+      "source_location": "L23"
+    },
+    {
+      "id": "src_framereader_framereader",
+      "label": "FrameReader()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "framereader()",
+      "source_file": "src/framereader.h",
+      "source_location": "L21"
+    },
+    {
+      "id": "src_server_qobject",
+      "label": "QObject()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "qobject()",
+      "source_file": "src/server.h",
+      "source_location": "L22"
+    },
+    {
+      "id": "src_server_server_connections",
+      "label": "Server::connections()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "server::connections()",
+      "source_file": "src/server.cpp",
+      "source_location": "L130"
+    },
+    {
+      "id": "src_connection_connection_connection",
+      "label": "Connection::Connection()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "norm_label": "connection::connection()",
+      "source_file": "src/connection.cpp",
+      "source_location": "L20"
+    },
+    {
+      "id": "src_connection_connection_handlereadererror",
+      "label": "Connection::handleReaderError()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "encodeVersionRejected",
+            "receiver_type": "Internal",
+            "lang": "cpp",
+            "line": "L174"
+          }
+        ]
+      },
+      "norm_label": "connection::handlereadererror()",
+      "source_file": "src/connection.cpp",
+      "source_location": "L167"
+    },
+    {
+      "id": "src_connection_connection_peercredentials",
+      "label": "Connection::peerCredentials()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "norm_label": "connection::peercredentials()",
+      "source_file": "src/connection.cpp",
+      "source_location": "L86"
+    },
+    {
+      "id": "src_connection_connection_protocolversion",
+      "label": "Connection::protocolVersion()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "norm_label": "connection::protocolversion()",
+      "source_file": "src/connection.cpp",
+      "source_location": "L115"
+    },
+    {
+      "id": "src_connection_connection_readavailable",
+      "label": "Connection::readAvailable()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "norm_label": "connection::readavailable()",
+      "source_file": "src/connection.cpp",
+      "source_location": "L120"
+    },
+    {
+      "id": "src_connection_connection_send",
+      "label": "Connection::send()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "isEmpty",
+            "receiver_type": "QByteArray",
+            "lang": "cpp",
+            "line": "L37"
+          },
+          {
+            "callee": "size",
+            "receiver_type": "QByteArray",
+            "lang": "cpp",
+            "line": "L40"
+          }
+        ]
+      },
+      "norm_label": "connection::send()",
+      "source_file": "src/connection.cpp",
+      "source_location": "L34"
+    },
+    {
+      "id": "src_connection_connection_sendblocking",
+      "label": "Connection::sendBlocking()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "isForever",
+            "receiver_type": "QDeadlineTimer",
+            "lang": "cpp",
+            "line": "L56"
+          },
+          {
+            "callee": "remainingTime",
+            "receiver_type": "QDeadlineTimer",
+            "lang": "cpp",
+            "line": "L56"
+          }
+        ]
+      },
+      "norm_label": "connection::sendblocking()",
+      "source_file": "src/connection.cpp",
+      "source_location": "L49"
+    },
+    {
+      "id": "src_connection_connection_socket",
+      "label": "Connection::socket()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "norm_label": "connection::socket()",
+      "source_file": "src/connection.cpp",
+      "source_location": "L110"
+    },
+    {
+      "id": "src_connection_connection_takeframe",
+      "label": "Connection::takeFrame()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "size",
+            "receiver_type": "QByteArray",
+            "lang": "cpp",
+            "line": "L155"
+          },
+          {
+            "callee": "constData",
+            "receiver_type": "QByteArray",
+            "lang": "cpp",
+            "line": "L155"
+          },
+          {
+            "callee": "reset",
+            "receiver_type": "QByteArray",
+            "lang": "cpp",
+            "line": "L158"
+          }
+        ]
+      },
+      "norm_label": "connection::takeframe()",
+      "source_file": "src/connection.cpp",
+      "source_location": "L143"
+    },
+    {
+      "id": "src_connection_connection_waitforframe",
+      "label": "Connection::waitForFrame()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "isForever",
+            "receiver_type": "QDeadlineTimer",
+            "lang": "cpp",
+            "line": "L77"
+          },
+          {
+            "callee": "remainingTime",
+            "receiver_type": "QDeadlineTimer",
+            "lang": "cpp",
+            "line": "L77"
+          }
+        ]
+      },
+      "norm_label": "connection::waitforframe()",
+      "source_file": "src/connection.cpp",
+      "source_location": "L63"
+    },
+    {
+      "id": "autotests_frametest_frametest_errors",
+      "label": ".errors()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "feed",
+            "receiver_type": "FrameReader",
+            "lang": "cpp",
+            "line": "L104"
+          },
+          {
+            "callee": "next",
+            "receiver_type": "FrameReader",
+            "lang": "cpp",
+            "line": "L105"
+          },
+          {
+            "callee": "error",
+            "receiver_type": "FrameReader",
+            "lang": "cpp",
+            "line": "L106"
+          },
+          {
+            "callee": "errorString",
+            "receiver_type": "FrameReader",
+            "lang": "cpp",
+            "line": "L107"
+          }
+        ]
+      },
+      "norm_label": ".errors()",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L99"
+    },
+    {
+      "id": "autotests_frametest_frametest_errors_data",
+      "label": ".errors_data()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "addColumn<QByteArray>",
+            "receiver_type": "QTest",
+            "lang": "cpp",
+            "line": "L88"
+          },
+          {
+            "callee": "addColumn<int>",
+            "receiver_type": "QTest",
+            "lang": "cpp",
+            "line": "L89"
+          },
+          {
+            "callee": "newRow",
+            "receiver_type": "QTest",
+            "lang": "cpp",
+            "line": "L91"
+          }
+        ]
+      },
+      "norm_label": ".errors_data()",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L86"
+    },
+    {
+      "id": "autotests_frametest_frametest_onebyteatatime",
+      "label": ".oneByteAtATime()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "size",
+            "receiver_type": "QByteArray",
+            "lang": "cpp",
+            "line": "L54"
+          },
+          {
+            "callee": "feed",
+            "receiver_type": "FrameReader",
+            "lang": "cpp",
+            "line": "L56"
+          },
+          {
+            "callee": "mid",
+            "receiver_type": "QByteArray",
+            "lang": "cpp",
+            "line": "L56"
+          },
+          {
+            "callee": "next",
+            "receiver_type": "FrameReader",
+            "lang": "cpp",
+            "line": "L57"
+          }
+        ]
+      },
+      "norm_label": ".onebyteatatime()",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L49"
+    },
+    {
+      "id": "autotests_frametest_frametest_private",
+      "label": ".private()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "compute",
+            "receiver_type": "Crc32",
+            "lang": "cpp",
+            "line": "L32"
+          }
+        ]
+      },
+      "norm_label": ".private()",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L27"
+    },
+    {
+      "id": "autotests_frametest_frametest_roundtrip",
+      "label": ".roundTrip()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "size",
+            "receiver_type": "QByteArray",
+            "lang": "cpp",
+            "line": "L38"
+          },
+          {
+            "callee": "feed",
+            "receiver_type": "FrameReader",
+            "lang": "cpp",
+            "line": "L40"
+          },
+          {
+            "callee": "next",
+            "receiver_type": "FrameReader",
+            "lang": "cpp",
+            "line": "L41"
+          },
+          {
+            "callee": "error",
+            "receiver_type": "FrameReader",
+            "lang": "cpp",
+            "line": "L46"
+          }
+        ]
+      },
+      "norm_label": ".roundtrip()",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L35"
+    },
+    {
+      "id": "autotests_frametest_frametest_twoframesinonechunk",
+      "label": ".twoFramesInOneChunk()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "feed",
+            "receiver_type": "FrameReader",
+            "lang": "cpp",
+            "line": "L66"
+          },
+          {
+            "callee": "next",
+            "receiver_type": "FrameReader",
+            "lang": "cpp",
+            "line": "L67"
+          }
+        ]
+      },
+      "norm_label": ".twoframesinonechunk()",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L63"
+    },
+    {
+      "id": "autotests_frametest_frametest_versionrejectedisreservedandreadableacrossversions",
+      "label": ".versionRejectedIsReservedAndReadableAcrossVersions()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "ignoreMessage",
+            "receiver_type": "QTest",
+            "lang": "cpp",
+            "line": "L116"
+          },
+          {
+            "callee": "feed",
+            "receiver_type": "FrameReader",
+            "lang": "cpp",
+            "line": "L123"
+          },
+          {
+            "callee": "next",
+            "receiver_type": "FrameReader",
+            "lang": "cpp",
+            "line": "L124"
+          }
+        ]
+      },
+      "norm_label": ".versionrejectedisreservedandreadableacrossversions()",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L114"
+    },
+    {
+      "id": "autotests_frametest_frametest_zerolengthpayload",
+      "label": ".zeroLengthPayload()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "feed",
+            "receiver_type": "FrameReader",
+            "lang": "cpp",
+            "line": "L79"
+          },
+          {
+            "callee": "next",
+            "receiver_type": "FrameReader",
+            "lang": "cpp",
+            "line": "L80"
+          }
+        ]
+      },
+      "norm_label": ".zerolengthpayload()",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L76"
+    },
+    {
+      "id": "src_frame_encodeframe",
+      "label": "encodeFrame()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "encodeFrameUnchecked",
+            "receiver_type": "Internal",
+            "lang": "cpp",
+            "line": "L22"
+          }
+        ]
+      },
+      "norm_label": "encodeframe()",
+      "source_file": "src/frame.cpp",
+      "source_location": "L16"
+    },
+    {
+      "id": "src_frame_encodeframeunchecked",
+      "label": "encodeFrameUnchecked()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "compute",
+            "receiver_type": "Crc32",
+            "lang": "cpp",
+            "line": "L36"
+          }
+        ]
+      },
+      "norm_label": "encodeframeunchecked()",
+      "source_file": "src/frame.cpp",
+      "source_location": "L27"
+    },
+    {
+      "id": "src_frame_encodeversionrejected",
+      "label": "encodeVersionRejected()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "norm_label": "encodeversionrejected()",
+      "source_file": "src/frame.cpp",
+      "source_location": "L41"
+    },
+    {
+      "id": "src_framereader_framereader_error",
+      "label": "FrameReader::error()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "framereader::error()",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L73"
+    },
+    {
+      "id": "src_framereader_framereader_errorstring",
+      "label": "FrameReader::errorString()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "framereader::errorstring()",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L78"
+    },
+    {
+      "id": "src_framereader_framereader_fail",
+      "label": "FrameReader::fail()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "framereader::fail()",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L88"
+    },
+    {
+      "id": "src_framereader_framereader_feed",
+      "label": "FrameReader::feed()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "framereader::feed()",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L17"
+    },
+    {
+      "id": "src_framereader_framereader_framereader",
+      "label": "FrameReader::FrameReader()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "framereader::framereader()",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L11"
+    },
+    {
+      "id": "src_framereader_framereader_next",
+      "label": "FrameReader::next()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "compute",
+            "receiver_type": "Crc32",
+            "lang": "cpp",
+            "line": "L65"
+          }
+        ]
+      },
+      "norm_label": "framereader::next()",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L30"
+    },
+    {
+      "id": "src_framereader_framereader_peerprotocolversion",
+      "label": "FrameReader::peerProtocolVersion()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "framereader::peerprotocolversion()",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L83"
+    },
+    {
+      "id": "src_client_client_attempt",
+      "label": "Client::attempt()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "client.cpp",
+      "file_type": "code",
+      "norm_label": "client::attempt()",
+      "source_file": "src/client.cpp",
+      "source_location": "L64"
+    },
+    {
+      "id": "src_client_client_client",
+      "label": "Client::Client()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "client.cpp",
+      "file_type": "code",
+      "norm_label": "client::client()",
+      "source_file": "src/client.cpp",
+      "source_location": "L17"
+    },
+    {
+      "id": "src_client_client_connecttoserver",
+      "label": "Client::connectToServer()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "client.cpp",
+      "file_type": "code",
+      "norm_label": "client::connecttoserver()",
+      "source_file": "src/client.cpp",
+      "source_location": "L29"
+    },
+    {
+      "id": "src_client_client_disconnectfromserver",
+      "label": "Client::disconnectFromServer()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "client.cpp",
+      "file_type": "code",
+      "norm_label": "client::disconnectfromserver()",
+      "source_file": "src/client.cpp",
+      "source_location": "L41"
+    },
+    {
+      "id": "src_client_client_request",
+      "label": "Client::request()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "client.cpp",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "isForever",
+            "receiver_type": "QDeadlineTimer",
+            "lang": "cpp",
+            "line": "L136"
+          },
+          {
+            "callee": "remainingTime",
+            "receiver_type": "QDeadlineTimer",
+            "lang": "cpp",
+            "line": "L136"
+          },
+          {
+            "callee": "isEmpty",
+            "receiver_type": "QByteArray",
+            "lang": "cpp",
+            "line": "L140"
+          }
+        ]
+      },
+      "norm_label": "client::request()",
+      "source_file": "src/client.cpp",
+      "source_location": "L125"
+    },
+    {
+      "id": "src_client_client_schedulereconnect",
+      "label": "Client::scheduleReconnect()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "client.cpp",
+      "file_type": "code",
+      "norm_label": "client::schedulereconnect()",
+      "source_file": "src/client.cpp",
+      "source_location": "L118"
+    },
+    {
+      "id": "src_client_client_setreconnectinterval",
+      "label": "Client::setReconnectInterval()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "client.cpp",
+      "file_type": "code",
+      "norm_label": "client::setreconnectinterval()",
+      "source_file": "src/client.cpp",
+      "source_location": "L36"
+    },
+    {
+      "id": "autotests_frametest_patched",
+      "label": "patched()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "frametest.cpp",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "data",
+            "receiver_type": "QByteArray",
+            "lang": "cpp",
+            "line": "L20"
+          }
+        ]
+      },
+      "norm_label": "patched()",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L18"
+    },
+    {
+      "id": "src_crc32_compute",
+      "label": "compute()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "crc32.cpp",
+      "file_type": "code",
+      "norm_label": "compute()",
+      "source_file": "src/crc32.cpp",
+      "source_location": "L28"
+    },
+    {
+      "id": "src_crc32_maketable",
+      "label": "makeTable()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "crc32.cpp",
+      "file_type": "code",
+      "norm_label": "maketable()",
+      "source_file": "src/crc32.cpp",
+      "source_location": "L12"
+    },
+    {
+      "id": "autotests_servertest",
+      "label": "servertest.cpp",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "norm_label": "servertest.cpp",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L1"
+    },
+    {
+      "id": "autotests_servertest_cpp_q_object",
+      "label": "Q_OBJECT",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "norm_label": "q_object",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "autotests_servertest_cpp_qobject",
+      "label": "QObject",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "norm_label": "qobject",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "autotests_servertest_cpp_qstring",
+      "label": "QString",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "norm_label": "qstring",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "autotests_servertest_servertest_m_counter",
+      "label": "m_counter",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "norm_label": "m_counter",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L354"
+    },
+    {
+      "id": "autotests_servertest_servertest_m_dir",
+      "label": "m_dir",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "norm_label": "m_dir",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L352"
+    },
+    {
+      "id": "autotests_servertest_servertest_m_path",
+      "label": "m_path",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "norm_label": "m_path",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L353"
+    },
+    {
+      "id": "client",
+      "label": "Client",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "norm_label": "client",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "mode_t",
+      "label": "mode_t",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "norm_label": "mode_t",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "qtemporarydir",
+      "label": "QTemporaryDir",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "norm_label": "qtemporarydir",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "server",
+      "label": "Server",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "ServerTest",
+      "file_type": "code",
+      "norm_label": "server",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "access",
+      "label": "Access",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "access",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_server_cpp_qbytearrayview",
+      "label": "QByteArrayView",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "qbytearrayview",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_server_cpp_qint64",
+      "label": "qint64",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "qint64",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_server_cpp_qobject",
+      "label": "QObject",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "qobject",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_server_cpp_qstring",
+      "label": "QString",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "qstring",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_server_cpp_quint16",
+      "label": "quint16",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "quint16",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_server_cpp_quint32",
+      "label": "quint32",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "quint32",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_server_cpp_src_server",
+      "label": "server.cpp",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "server.cpp",
+      "source_file": "src/server.cpp",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_server_usersockettesting_emptyruntimelocation",
+      "label": "emptyRuntimeLocation",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "emptyruntimelocation",
+      "source_file": "src/server.cpp",
+      "source_location": "L25"
+    },
+    {
+      "id": "src_server_usersockettesting_temporarydirectory",
+      "label": "temporaryDirectory",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "server.cpp",
+      "file_type": "code",
+      "norm_label": "temporarydirectory",
+      "source_file": "src/server.cpp",
+      "source_location": "L26"
+    },
+    {
+      "id": "qlist",
+      "label": "QList",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "qlist",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_client_h_src_client",
+      "label": "client.h",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "client.h",
+      "source_file": "src/client.h",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_connection_h_src_connection",
+      "label": "connection.h",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "connection.h",
+      "source_file": "src/connection.h",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_crc32_h_src_crc32",
+      "label": "crc32.h",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "crc32.h",
+      "source_file": "src/crc32.h",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_frame_h_qbytearray",
+      "label": "QByteArray",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "qbytearray",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_frame_h_src_frame",
+      "label": "frame.h",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "frame.h",
+      "source_file": "src/frame.h",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_framereader_h_src_framereader",
+      "label": "framereader.h",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "framereader.h",
+      "source_file": "src/framereader.h",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_ipc_p",
+      "label": "ipc_p.h",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "ipc_p.h",
+      "source_file": "src/ipc_p.h",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_server_h_src_server",
+      "label": "server.h",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "client.h",
+      "file_type": "code",
+      "norm_label": "server.h",
+      "source_file": "src/server.h",
+      "source_location": "L1"
+    },
+    {
+      "id": "peercredentials",
+      "label": "PeerCredentials",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "norm_label": "peercredentials",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "qlocalsocket",
+      "label": "QLocalSocket",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "norm_label": "qlocalsocket",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_connection_cpp_optional",
+      "label": "optional",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "norm_label": "optional",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_connection_cpp_qbytearrayview",
+      "label": "QByteArrayView",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "norm_label": "qbytearrayview",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_connection_cpp_qint64",
+      "label": "qint64",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "norm_label": "qint64",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_connection_cpp_qobject",
+      "label": "QObject",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "norm_label": "qobject",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_connection_cpp_quint16",
+      "label": "quint16",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "norm_label": "quint16",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_connection_cpp_quint32",
+      "label": "quint32",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "norm_label": "quint32",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_connection_cpp_src_connection",
+      "label": "connection.cpp",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "file_type": "code",
+      "norm_label": "connection.cpp",
+      "source_file": "src/connection.cpp",
+      "source_location": "L1"
+    },
+    {
+      "id": "autotests_frametest_cpp_q_object",
+      "label": "Q_OBJECT",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "norm_label": "q_object",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "autotests_frametest_cpp_qobject",
+      "label": "QObject",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "norm_label": "qobject",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_frame_cpp_qbytearray",
+      "label": "QByteArray",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "norm_label": "qbytearray",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_frame_cpp_qbytearrayview",
+      "label": "QByteArrayView",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "norm_label": "qbytearrayview",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_frame_cpp_quint16",
+      "label": "quint16",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "norm_label": "quint16",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_frame_cpp_quint32",
+      "label": "quint32",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "norm_label": "quint32",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_frame_cpp_src_frame",
+      "label": "frame.cpp",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "encodeFrame",
+      "file_type": "code",
+      "norm_label": "frame.cpp",
+      "source_file": "src/frame.cpp",
+      "source_location": "L1"
+    },
+    {
+      "id": "error",
+      "label": "Error",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "error",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_frame_frame_payload",
+      "label": "payload",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "payload",
+      "source_file": "src/frame.h",
+      "source_location": "L29"
+    },
+    {
+      "id": "src_frame_frame_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "src/frame.h",
+      "source_location": "L28"
+    },
+    {
+      "id": "src_frame_frame_versionrejected",
+      "label": "VersionRejected",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "versionrejected",
+      "source_file": "src/frame.h",
+      "source_location": "L26"
+    },
+    {
+      "id": "src_frame_h_quint32",
+      "label": "quint32",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "quint32",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_framereader_cpp_optional",
+      "label": "optional",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "optional",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_framereader_cpp_qbytearrayview",
+      "label": "QByteArrayView",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "qbytearrayview",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_framereader_cpp_qint64",
+      "label": "qint64",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "qint64",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_framereader_cpp_qstring",
+      "label": "QString",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "qstring",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_framereader_cpp_quint16",
+      "label": "quint16",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "quint16",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_framereader_cpp_src_framereader",
+      "label": "framereader.cpp",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Frame",
+      "file_type": "code",
+      "norm_label": "framereader.cpp",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_client_cpp_optional",
+      "label": "optional",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "client.cpp",
+      "file_type": "code",
+      "norm_label": "optional",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_client_cpp_qbytearrayview",
+      "label": "QByteArrayView",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "client.cpp",
+      "file_type": "code",
+      "norm_label": "qbytearrayview",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_client_cpp_qint64",
+      "label": "qint64",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "client.cpp",
+      "file_type": "code",
+      "norm_label": "qint64",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_client_cpp_qobject",
+      "label": "QObject",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "client.cpp",
+      "file_type": "code",
+      "norm_label": "qobject",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_client_cpp_qstring",
+      "label": "QString",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "client.cpp",
+      "file_type": "code",
+      "norm_label": "qstring",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_client_cpp_quint16",
+      "label": "quint16",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "client.cpp",
+      "file_type": "code",
+      "norm_label": "quint16",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_client_cpp_quint32",
+      "label": "quint32",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "client.cpp",
+      "file_type": "code",
+      "norm_label": "quint32",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_client_cpp_src_client",
+      "label": "client.cpp",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "client.cpp",
+      "file_type": "code",
+      "norm_label": "client.cpp",
+      "source_file": "src/client.cpp",
+      "source_location": "L1"
+    },
+    {
+      "id": "autotests_frametest",
+      "label": "frametest.cpp",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "frametest.cpp",
+      "file_type": "code",
+      "norm_label": "frametest.cpp",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L1"
+    },
+    {
+      "id": "autotests_frametest_cpp_qbytearray",
+      "label": "QByteArray",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "frametest.cpp",
+      "file_type": "code",
+      "norm_label": "qbytearray",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "t",
+      "label": "T",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "frametest.cpp",
+      "file_type": "code",
+      "norm_label": "t",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "array",
+      "label": "array",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "crc32.cpp",
+      "file_type": "code",
+      "norm_label": "array",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_crc32_cpp_qbytearrayview",
+      "label": "QByteArrayView",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "crc32.cpp",
+      "file_type": "code",
+      "norm_label": "qbytearrayview",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_crc32_cpp_quint32",
+      "label": "quint32",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "crc32.cpp",
+      "file_type": "code",
+      "norm_label": "quint32",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_crc32_cpp_src_crc32",
+      "label": "crc32.cpp",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "crc32.cpp",
+      "file_type": "code",
+      "norm_label": "crc32.cpp",
+      "source_file": "src/crc32.cpp",
+      "source_location": "L1"
+    },
+    {
+      "id": "readme",
+      "label": "README.md",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Sonic IPC",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "readme.md",
+      "source_file": "README.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "readme_building",
+      "label": "Building",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Sonic IPC",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "building",
+      "source_file": "README.md",
+      "source_location": "L58"
+    },
+    {
+      "id": "readme_features",
+      "label": "Features",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Sonic IPC",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "features",
+      "source_file": "README.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "readme_sonic_ipc",
+      "label": "Sonic IPC",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Sonic IPC",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "sonic ipc",
+      "source_file": "README.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "readme_usage",
+      "label": "Usage",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Sonic IPC",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "usage",
+      "source_file": "README.md",
+      "source_location": "L24"
+    },
+    {
+      "id": "memory",
+      "label": "memory",
+      "community": 0,
+      "community_name": "ServerTest",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "memory",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "qsignalspy",
+      "label": "qsignalspy",
+      "community": 0,
+      "community_name": "ServerTest",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "qsignalspy",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "qtconcurrentrun",
+      "label": "qtconcurrentrun",
+      "community": 0,
+      "community_name": "ServerTest",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "qtconcurrentrun",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "qthread",
+      "label": "qthread",
+      "community": 0,
+      "community_name": "ServerTest",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "qthread",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "socket",
+      "label": "socket",
+      "community": 0,
+      "community_name": "ServerTest",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "socket",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "un",
+      "label": "un",
+      "community": 0,
+      "community_name": "ServerTest",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "un",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "unistd",
+      "label": "unistd",
+      "community": 0,
+      "community_name": "ServerTest",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "unistd",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "cerrno",
+      "label": "cerrno",
+      "community": 1,
+      "community_name": "server.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "cerrno",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "qdir",
+      "label": "qdir",
+      "community": 1,
+      "community_name": "server.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "qdir",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "qfile",
+      "label": "qfile",
+      "community": 1,
+      "community_name": "server.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "qfile",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "qlocalserver",
+      "label": "qlocalserver",
+      "community": 1,
+      "community_name": "server.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "qlocalserver",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "qstandardpaths",
+      "label": "qstandardpaths",
+      "community": 1,
+      "community_name": "server.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "qstandardpaths",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "stat",
+      "label": "stat",
+      "community": 1,
+      "community_name": "server.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "stat",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "optional",
+      "label": "optional",
+      "community": 2,
+      "community_name": "client.h",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "optional",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "qbytearrayview",
+      "label": "qbytearrayview",
+      "community": 2,
+      "community_name": "client.h",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "qbytearrayview",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "qobject",
+      "label": "qobject",
+      "community": 2,
+      "community_name": "client.h",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "qobject",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "qstring",
+      "label": "qstring",
+      "community": 2,
+      "community_name": "client.h",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "qstring",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "sonicipc_export",
+      "label": "sonicipc_export",
+      "community": 2,
+      "community_name": "client.h",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "sonicipc_export",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "qpointer",
+      "label": "qpointer",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "qpointer",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "types",
+      "label": "types",
+      "community": 3,
+      "community_name": "connection.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "types",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "log",
+      "label": "log",
+      "community": 6,
+      "community_name": "client.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "log",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "qdeadlinetimer",
+      "label": "qdeadlinetimer",
+      "community": 6,
+      "community_name": "client.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "qdeadlinetimer",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "qtimer",
+      "label": "qtimer",
+      "community": 6,
+      "community_name": "client.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "qtimer",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "crc32",
+      "label": "crc32",
+      "community": 7,
+      "community_name": "frametest.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "crc32",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "frame",
+      "label": "frame",
+      "community": 7,
+      "community_name": "frametest.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "frame",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "framereader",
+      "label": "framereader",
+      "community": 7,
+      "community_name": "frametest.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "framereader",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "qregularexpression",
+      "label": "qregularexpression",
+      "community": 7,
+      "community_name": "frametest.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "qregularexpression",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "qtendian",
+      "label": "qtendian",
+      "community": 7,
+      "community_name": "frametest.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "qtendian",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "qtest",
+      "label": "qtest",
+      "community": 7,
+      "community_name": "frametest.cpp",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "qtest",
+      "source_file": "",
+      "type": "external"
+    }
+  ],
+  "links": [
+    {
+      "source": "autotests_servertest_servertest_blockingrequestkeepseventloopresponsive",
+      "target": "autotests_servertest_echoframes",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest_broadcasttotwoclients",
+      "target": "autotests_servertest_connectclient",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest_chownkeepsmodeandaccess",
+      "target": "autotests_servertest_modeof",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest_chownkeepsmodeandaccess",
+      "target": "autotests_servertest_connectclient",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest_peercredentials",
+      "target": "autotests_servertest_connectclient",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest_peercredentials",
+      "target": "autotests_servertest_servertest_peercredentials",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest_reconnectafterserverrestart",
+      "target": "autotests_servertest_echoframes",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L304",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest_requestandresponse",
+      "target": "autotests_servertest_echoframes",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest_requestandresponse",
+      "target": "autotests_servertest_connectclient",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest_stalesocketrecovery",
+      "target": "autotests_servertest_connectclient",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest_useraccesssocketmode",
+      "target": "autotests_servertest_modeof",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest_usersocketpathfallback",
+      "target": "autotests_servertest_modeof",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L232",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest_versionrejection",
+      "target": "autotests_servertest_connectclient",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L270",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_encodeversionrejected",
+      "target": "src_frame_encodeframeunchecked",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/frame.cpp",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_server_listen",
+      "target": "src_server_somebodylistens",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/server.cpp",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_server_listen",
+      "target": "src_server_socketoptions",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/server.cpp",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_server_listen",
+      "target": "src_server_qlocalserver",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/server.cpp",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_m_dir",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L352",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_m_path",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L353",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_m_counter",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L354",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_frame",
+      "target": "src_frame_frame_versionrejected",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "src/frame.h",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_frame",
+      "target": "src_frame_frame_type",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "src/frame.h",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_frame",
+      "target": "src_frame_frame_payload",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "src/frame.h",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_usersockettesting",
+      "target": "src_server_usersockettesting_emptyruntimelocation",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "src/server.cpp",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_usersockettesting",
+      "target": "src_server_usersockettesting_temporarydirectory",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "src/server.cpp",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "qtemporarydir",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L352",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_cpp_qstring",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L353",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_frame",
+      "target": "src_frame_h_quint32",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "src/frame.h",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_frame",
+      "target": "src_frame_h_qbytearray",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "src/frame.h",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_usersockettesting",
+      "target": "src_server_cpp_qstring",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "src/server.cpp",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_client_request",
+      "target": "src_frame_frame",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/client.cpp",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_peercredentials",
+      "target": "peercredentials",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/connection.cpp",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_takeframe",
+      "target": "src_frame_frame",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/connection.cpp",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_waitforframe",
+      "target": "src_frame_frame",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/connection.cpp",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "src_crc32_maketable",
+      "target": "src_crc32_cpp_quint32",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/crc32.cpp",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_framereader_next",
+      "target": "src_frame_frame",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_server_connections",
+      "target": "src_connection_connection",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/server.cpp",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest",
+      "target": "qtendian",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest",
+      "target": "crc32",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest",
+      "target": "frame",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest",
+      "target": "framereader",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest",
+      "target": "qregularexpression",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest",
+      "target": "qtest",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "qfile",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "qlocalsocket",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "qregularexpression",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "qsignalspy",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "qtemporarydir",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "qtest",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "qthread",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "qtimer",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "qtconcurrentrun",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "memory",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "socket",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "stat",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "un",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "unistd",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "client",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "src_connection_connection",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "src_ipc_p",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "server",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "qdir",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_cpp_src_client",
+      "target": "qdeadlinetimer",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/client.cpp",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_cpp_src_client",
+      "target": "qlocalsocket",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/client.cpp",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_cpp_src_client",
+      "target": "qtimer",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/client.cpp",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_cpp_src_client",
+      "target": "qtendian",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/client.cpp",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_cpp_src_client",
+      "target": "src_client_h_src_client",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/client.cpp",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_cpp_src_client",
+      "target": "src_connection_h_src_connection",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/client.cpp",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_cpp_src_client",
+      "target": "src_framereader_h_src_framereader",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/client.cpp",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_cpp_src_client",
+      "target": "log",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/client.cpp",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_h_src_client",
+      "target": "qstring",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/client.h",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_h_src_client",
+      "target": "optional",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/client.h",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_h_src_client",
+      "target": "src_frame_h_src_frame",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/client.h",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_h_src_client",
+      "target": "sonicipc_export",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/client.h",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_h_src_client",
+      "target": "qobject",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/client.h",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "qlocalsocket",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/connection.cpp",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "qpointer",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/connection.cpp",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "qtendian",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/connection.cpp",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "socket",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/connection.cpp",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "types",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/connection.cpp",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "unistd",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/connection.cpp",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "src_connection_h_src_connection",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/connection.cpp",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "src_ipc_p",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/connection.cpp",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "log",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/connection.cpp",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "qdeadlinetimer",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/connection.cpp",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_h_src_connection",
+      "target": "qobject",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/connection.h",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_h_src_connection",
+      "target": "optional",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/connection.h",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_h_src_connection",
+      "target": "src_frame_h_src_frame",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/connection.h",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_h_src_connection",
+      "target": "src_framereader_h_src_framereader",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/connection.h",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_h_src_connection",
+      "target": "sonicipc_export",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/connection.h",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_crc32_cpp_src_crc32",
+      "target": "src_crc32_h_src_crc32",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/crc32.cpp",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_crc32_cpp_src_crc32",
+      "target": "array",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/crc32.cpp",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_crc32_h_src_crc32",
+      "target": "sonicipc_export",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/crc32.h",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_crc32_h_src_crc32",
+      "target": "qbytearrayview",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/crc32.h",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_cpp_src_frame",
+      "target": "qtendian",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/frame.cpp",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_cpp_src_frame",
+      "target": "src_frame_h_src_frame",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/frame.cpp",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_cpp_src_frame",
+      "target": "src_crc32_h_src_crc32",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/frame.cpp",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_cpp_src_frame",
+      "target": "src_ipc_p",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/frame.cpp",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_cpp_src_frame",
+      "target": "log",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/frame.cpp",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_h_src_frame",
+      "target": "sonicipc_export",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/frame.h",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_h_src_frame",
+      "target": "src_frame_h_qbytearray",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/frame.h",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_h_src_frame",
+      "target": "qbytearrayview",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/frame.h",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_cpp_src_framereader",
+      "target": "src_framereader_h_src_framereader",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_cpp_src_framereader",
+      "target": "src_crc32_h_src_crc32",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_cpp_src_framereader",
+      "target": "qtendian",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_h_src_framereader",
+      "target": "qstring",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/framereader.h",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_h_src_framereader",
+      "target": "optional",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/framereader.h",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_h_src_framereader",
+      "target": "src_frame_h_src_frame",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/framereader.h",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_h_src_framereader",
+      "target": "sonicipc_export",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/framereader.h",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_h_src_framereader",
+      "target": "src_frame_h_qbytearray",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/framereader.h",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ipc_p",
+      "target": "sonicipc_export",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/ipc_p.h",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ipc_p",
+      "target": "src_frame_h_qbytearray",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/ipc_p.h",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ipc_p",
+      "target": "qstring",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/ipc_p.h",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "qdir",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.cpp",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "qfile",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.cpp",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "qlocalserver",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.cpp",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "qlocalsocket",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.cpp",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "qstandardpaths",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.cpp",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "cerrno",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.cpp",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "stat",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.cpp",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "unistd",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.cpp",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "src_server_h_src_server",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.cpp",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "src_connection_h_src_connection",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.cpp",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "src_ipc_p",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.cpp",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "log",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.cpp",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_h_src_server",
+      "target": "qobject",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.h",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_h_src_server",
+      "target": "src_frame_h_src_frame",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.h",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_h_src_server",
+      "target": "sonicipc_export",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.h",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_h_src_server",
+      "target": "qlist",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/server.h",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_patched",
+      "target": "autotests_frametest_cpp_qbytearray",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_patched",
+      "target": "t",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_connectclient",
+      "target": "autotests_servertest_cpp_qstring",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_connectclient",
+      "target": "client",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_echoframes",
+      "target": "server",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_modeof",
+      "target": "autotests_servertest_cpp_qstring",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_client_client",
+      "target": "src_client_cpp_qint64",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/client.cpp",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_client_client",
+      "target": "src_client_cpp_qobject",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/client.cpp",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_client_client",
+      "target": "src_client_cpp_quint16",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/client.cpp",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_client_connecttoserver",
+      "target": "src_client_cpp_qstring",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/client.cpp",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_client_request",
+      "target": "src_client_cpp_qbytearrayview",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/client.cpp",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_client_request",
+      "target": "src_client_cpp_qint64",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/client.cpp",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_client_request",
+      "target": "src_client_cpp_qstring",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/client.cpp",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_client_request",
+      "target": "src_client_cpp_quint16",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/client.cpp",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_client_request",
+      "target": "src_client_cpp_quint32",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/client.cpp",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_connection",
+      "target": "qlocalsocket",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/connection.cpp",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_connection",
+      "target": "src_connection_cpp_qint64",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/connection.cpp",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_connection",
+      "target": "src_connection_cpp_qobject",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/connection.cpp",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_connection",
+      "target": "src_connection_cpp_quint16",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/connection.cpp",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_send",
+      "target": "src_connection_cpp_qbytearrayview",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/connection.cpp",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_send",
+      "target": "src_connection_cpp_quint32",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/connection.cpp",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_sendblocking",
+      "target": "src_connection_cpp_qbytearrayview",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/connection.cpp",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_sendblocking",
+      "target": "src_connection_cpp_quint32",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/connection.cpp",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_takeframe",
+      "target": "src_connection_cpp_optional",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/connection.cpp",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "src_crc32_compute",
+      "target": "src_crc32_cpp_qbytearrayview",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/crc32.cpp",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_encodeframe",
+      "target": "src_frame_cpp_qbytearrayview",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/frame.cpp",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_encodeframe",
+      "target": "src_frame_cpp_quint16",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/frame.cpp",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_encodeframe",
+      "target": "src_frame_cpp_quint32",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/frame.cpp",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_encodeframeunchecked",
+      "target": "src_frame_cpp_qbytearrayview",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/frame.cpp",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_encodeframeunchecked",
+      "target": "src_frame_cpp_quint16",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/frame.cpp",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_encodeframeunchecked",
+      "target": "src_frame_cpp_quint32",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/frame.cpp",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_encodeversionrejected",
+      "target": "src_frame_cpp_quint16",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/frame.cpp",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_framereader_fail",
+      "target": "error",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_framereader_fail",
+      "target": "src_framereader_cpp_qstring",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_framereader_feed",
+      "target": "src_framereader_cpp_qbytearrayview",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_framereader_framereader",
+      "target": "src_framereader_cpp_qint64",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_framereader_framereader",
+      "target": "src_framereader_cpp_quint16",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_server_broadcast",
+      "target": "src_server_cpp_qbytearrayview",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/server.cpp",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_server_broadcast",
+      "target": "src_server_cpp_quint32",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/server.cpp",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_server_listen",
+      "target": "access",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/server.cpp",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_server_listen",
+      "target": "src_server_cpp_qint64",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/server.cpp",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_server_listen",
+      "target": "src_server_cpp_qstring",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/server.cpp",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_server_listen",
+      "target": "src_server_cpp_quint16",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/server.cpp",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_server_server",
+      "target": "src_server_cpp_qobject",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/server.cpp",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_server_usersocketpath",
+      "target": "src_server_cpp_qstring",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/server.cpp",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_setusersocketfallbackfortesting",
+      "target": "src_server_cpp_qstring",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/server.cpp",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_socketoptions",
+      "target": "access",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/server.cpp",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_somebodylistens",
+      "target": "src_server_cpp_qstring",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "src/server.cpp",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest_private",
+      "target": "autotests_frametest_cpp_q_object",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_connectclient",
+      "target": "src_connection_connection",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_modeof",
+      "target": "mode_t",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest_private",
+      "target": "autotests_servertest_cpp_q_object",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_client_connection",
+      "target": "src_connection_connection",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/client.cpp",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_client_request",
+      "target": "src_client_cpp_optional",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/client.cpp",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_peercredentials",
+      "target": "src_connection_cpp_optional",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/connection.cpp",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_protocolversion",
+      "target": "src_connection_cpp_quint16",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/connection.cpp",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_socket",
+      "target": "qlocalsocket",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/connection.cpp",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_waitforframe",
+      "target": "src_connection_cpp_optional",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/connection.cpp",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "src_crc32_compute",
+      "target": "src_crc32_cpp_quint32",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/crc32.cpp",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "src_crc32_maketable",
+      "target": "array",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/crc32.cpp",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_encodeframe",
+      "target": "src_frame_cpp_qbytearray",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/frame.cpp",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_encodeframeunchecked",
+      "target": "src_frame_cpp_qbytearray",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/frame.cpp",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_encodeversionrejected",
+      "target": "src_frame_cpp_qbytearray",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/frame.cpp",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_framereader_error",
+      "target": "error",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_framereader_errorstring",
+      "target": "src_framereader_cpp_qstring",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_framereader_next",
+      "target": "src_framereader_cpp_optional",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_framereader_peerprotocolversion",
+      "target": "src_framereader_cpp_quint16",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/framereader.cpp",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_server_connections",
+      "target": "qlist",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/server.cpp",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_server_errorstring",
+      "target": "src_server_cpp_qstring",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/server.cpp",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_server_fullservername",
+      "target": "src_server_cpp_qstring",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "src/server.cpp",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest",
+      "target": "autotests_frametest_patched",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest",
+      "target": "autotests_frametest_frametest",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "autotests_servertest_echoframes",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "autotests_servertest_connectclient",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "autotests_servertest_modeof",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest",
+      "target": "autotests_servertest_servertest",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "readme_sonic_ipc",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_sonic_ipc",
+      "target": "readme_features",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_sonic_ipc",
+      "target": "readme_usage",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_sonic_ipc",
+      "target": "readme_building",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_cpp_src_client",
+      "target": "src_client_client_schedulereconnect",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/client.cpp",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_cpp_src_client",
+      "target": "src_client_client_request",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/client.cpp",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_cpp_src_client",
+      "target": "src_client_client_client",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/client.cpp",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_cpp_src_client",
+      "target": "src_client_client_connecttoserver",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/client.cpp",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_cpp_src_client",
+      "target": "src_client_client_setreconnectinterval",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/client.cpp",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_cpp_src_client",
+      "target": "src_client_client_disconnectfromserver",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/client.cpp",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_cpp_src_client",
+      "target": "src_client_client_connection",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/client.cpp",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_cpp_src_client",
+      "target": "src_client_client_attempt",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/client.cpp",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_h_src_client",
+      "target": "src_client_qlocalsocket",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/client.h",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_h_src_client",
+      "target": "src_client_qtimer",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/client.h",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_h_src_client",
+      "target": "src_client_connection",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/client.h",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_h_src_client",
+      "target": "src_client_qobject",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/client.h",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "src_connection_connection_socket",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/connection.cpp",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "src_connection_connection_protocolversion",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/connection.cpp",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "src_connection_connection_readavailable",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/connection.cpp",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "src_connection_connection_takeframe",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/connection.cpp",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "src_connection_connection_handlereadererror",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/connection.cpp",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "src_connection_connection_connection",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/connection.cpp",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "src_connection_connection_send",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/connection.cpp",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "src_connection_connection_sendblocking",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/connection.cpp",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "src_connection_connection_waitforframe",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/connection.cpp",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_cpp_src_connection",
+      "target": "src_connection_connection_peercredentials",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/connection.cpp",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_h_src_connection",
+      "target": "src_connection_qlocalsocket",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/connection.h",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_h_src_connection",
+      "target": "src_connection_connection",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/connection.h",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "src_crc32_cpp_src_crc32",
+      "target": "src_crc32_maketable",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/crc32.cpp",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_crc32_cpp_src_crc32",
+      "target": "src_crc32_compute",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/crc32.cpp",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_cpp_src_frame",
+      "target": "src_frame_encodeframe",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/frame.cpp",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_cpp_src_frame",
+      "target": "src_frame_encodeframeunchecked",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/frame.cpp",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_cpp_src_frame",
+      "target": "src_frame_encodeversionrejected",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/frame.cpp",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "src_frame_h_src_frame",
+      "target": "src_frame_frame",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/frame.h",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_cpp_src_framereader",
+      "target": "src_framereader_framereader_framereader",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/framereader.cpp",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_cpp_src_framereader",
+      "target": "src_framereader_framereader_feed",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/framereader.cpp",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_cpp_src_framereader",
+      "target": "src_framereader_framereader_next",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/framereader.cpp",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_cpp_src_framereader",
+      "target": "src_framereader_framereader_error",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/framereader.cpp",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_cpp_src_framereader",
+      "target": "src_framereader_framereader_errorstring",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/framereader.cpp",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_cpp_src_framereader",
+      "target": "src_framereader_framereader_peerprotocolversion",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/framereader.cpp",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_cpp_src_framereader",
+      "target": "src_framereader_framereader_fail",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/framereader.cpp",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "src_framereader_h_src_framereader",
+      "target": "src_framereader_framereader",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/framereader.h",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "src_server_server_fullservername",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.cpp",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "src_server_server_errorstring",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.cpp",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "src_server_server_close",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.cpp",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "src_server_server_broadcast",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.cpp",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "src_server_server_connections",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.cpp",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "src_server_server_acceptconnections",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.cpp",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "src_server_server_usersocketpath",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.cpp",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "src_server_setusersocketfallbackfortesting",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.cpp",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "src_server_usersockettesting",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.cpp",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "src_server_socketoptions",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.cpp",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "src_server_somebodylistens",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.cpp",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "src_server_server_server",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.cpp",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_cpp_src_server",
+      "target": "src_server_server_listen",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.cpp",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_h_src_server",
+      "target": "src_server_qlocalserver",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.h",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_h_src_server",
+      "target": "src_server_connection",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.h",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_server_h_src_server",
+      "target": "src_server_qobject",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/server.h",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest",
+      "target": "autotests_frametest_cpp_qobject",
+      "relation": "inherits",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_cpp_qobject",
+      "relation": "inherits",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest",
+      "target": "autotests_frametest_frametest_versionrejectedisreservedandreadableacrossversions",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest",
+      "target": "autotests_frametest_frametest_private",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest",
+      "target": "autotests_frametest_frametest_roundtrip",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest",
+      "target": "autotests_frametest_frametest_onebyteatatime",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest",
+      "target": "autotests_frametest_frametest_twoframesinonechunk",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest",
+      "target": "autotests_frametest_frametest_zerolengthpayload",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest",
+      "target": "autotests_frametest_frametest_errors_data",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest",
+      "target": "autotests_frametest_frametest_errors",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_peercredentials",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_protocolerrordisconnectspeer",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_useraccesssocketmode",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_chownkeepsmodeandaccess",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L156",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_stalesocketrecovery",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_blockingrequestkeepseventloopresponsive",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L190",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_usersocketpathusesruntimelocation",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L217",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_usersocketpathfallback",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L225",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_usersocketpathrefusesunsafedirectories_data",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L235",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_usersocketpathrefusesunsafedirectories",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L243",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_versionrejection",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L264",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_reconnectafterserverrestart",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L292",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_rejectedclientstopsreconnecting",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L316",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_disconnectfromserverstopsreconnecting",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L334",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_private",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_init",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_cleanup",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_requestandresponse",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest",
+      "target": "autotests_servertest_servertest_broadcasttotwoclients",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_servertest_servertest_blockingrequestkeepseventloopresponsive",
+      "target": "src_client_qtimer",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "context": "call",
+      "source_file": "autotests/servertest.cpp",
+      "source_location": "L201",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest_errors",
+      "target": "src_frame_encodeframe",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest_errors_data",
+      "target": "src_frame_encodeframe",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest_onebyteatatime",
+      "target": "src_frame_encodeframe",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest_roundtrip",
+      "target": "src_frame_encodeframe",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest_twoframesinonechunk",
+      "target": "src_frame_encodeframe",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest_versionrejectedisreservedandreadableacrossversions",
+      "target": "src_frame_encodeframe",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "autotests_frametest_frametest_zerolengthpayload",
+      "target": "src_frame_encodeframe",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "autotests/frametest.cpp",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "src_client_client_request",
+      "target": "src_frame_encodeframe",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "src/client.cpp",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "src_connection_connection_send",
+      "target": "src_frame_encodeframe",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "src/connection.cpp",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_sonic_ipc",
+      "target": "src_server_qlocalserver",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "context": "QLocalServer",
+      "source_file": "README.md",
+      "source_location": "L8",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "34b6c7005383a051c941ee07d6042d426a10eb89"
+}
