@@ -1,0 +1,58 @@
+// SPDX-FileCopyrightText: 2026 Joseph Crowell <joseph.w.crowell@gmail.com>
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+/*!
+    \page sonicipc-index.html
+    \title Sonic IPC
+
+    Sonic IPC is a small inter-process communication library for SonicDE. It
+    is built on Unix domain sockets (QLocalServer / QLocalSocket). Components
+    can talk to each other directly, peer to peer, without a message bus, so
+    D-Bus becomes an option rather than a requirement.
+
+    \list
+    \li \l Sonic::Ipc::Server listens on a local socket and wraps each client
+        in a \l Sonic::Ipc::Connection.
+    \li \l Sonic::Ipc::Client connects to a server, optionally reconnecting
+        across restarts, or sends one blocking request.
+    \li \l Sonic::Ipc::Connection sends and receives frames, and tells the uid,
+        gid and pid of the process at the other end.
+    \endlist
+
+    Each frame carries the application's protocol version and a message type.
+    Damaged, oversized or foreign data is rejected and the connection closed; a
+    peer speaking another protocol version is told so first. Frame type
+    0xFFFFFFFF is reserved for the library.
+
+    \code
+    constexpr quint16 protocolVersion = 1;
+
+    auto *server = new Sonic::Ipc::Server(this);
+    server->listen(Sonic::Ipc::Server::userSocketPath(QStringLiteral("my-service.sock")),
+                   Sonic::Ipc::Server::Access::User, protocolVersion);
+    connect(server, &Sonic::Ipc::Server::newConnection, this, [](Sonic::Ipc::Connection *connection) {
+        QObject::connect(connection, &Sonic::Ipc::Connection::frameReceived, connection,
+                         [connection](quint32 type, const QByteArray &payload) {
+                             connection->send(type, payload); // echo
+                         });
+    });
+    \endcode
+
+    \section1 Using the Module
+
+    \section2 Building with CMake
+
+    Use the \c find_package() command to locate the SonicIpc package and link
+    against its target:
+
+    \badcode
+    find_package(SonicIpc REQUIRED)
+    target_link_libraries(mytarget PRIVATE Sonic::Ipc)
+    \endcode
+
+    \section1 API Reference
+
+    \list
+        \li \l{Sonic IPC C++ Classes}
+    \endlist
+*/

@@ -41,6 +41,8 @@ target_include_directories(SonicIpc
     INTERFACE "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR}>"
 )
 
+ecm_generate_qdoc(SonicIpc sonicipc.qdocconf)
+
 install(TARGETS SonicIpc EXPORT SonicIpcTargets ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 
 # <Sonic/Ipc/Name> forwards to the lowercase header installed next to it.
