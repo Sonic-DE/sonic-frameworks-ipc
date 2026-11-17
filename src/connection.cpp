@@ -14,6 +14,10 @@
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <unistd.h>
+#ifdef Q_OS_FREEBSD
+#include <sys/ucred.h>
+#include <sys/un.h>
+#endif
 
 namespace Sonic::Ipc {
 Connection::Connection(QLocalSocket* socket, quint16 protocolVersion, qint64 maxPayload, QObject* parent)
@@ -95,8 +99,16 @@ std::optional<Connection::PeerCredentials> Connection::peerCredentials() const
         return std::nullopt;
     }
     return PeerCredentials{credentials.uid, credentials.gid, credentials.pid};
+#elif defined(Q_OS_FREEBSD)
+    xucred credentials{};
+    socklen_t length = sizeof(credentials);
+    if (getsockopt(int(fd), SOL_LOCAL, LOCAL_PEERCRED, &credentials, &length) != 0
+        || credentials.cr_version != XUCRED_VERSION) {
+        return std::nullopt;
+    }
+    return PeerCredentials{credentials.cr_uid, credentials.cr_groups[0], credentials.cr_pid};
 #else
-    // Unverified on the BSDs: getpeereid reports no pid.
+    // Unverified on the other BSDs: getpeereid reports no pid.
     uid_t uid;
     gid_t gid;
     if (getpeereid(int(fd), &uid, &gid) != 0) {

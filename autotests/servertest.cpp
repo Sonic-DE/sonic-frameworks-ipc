@@ -119,6 +119,7 @@ private Q_SLOTS:
         const auto credentials = server.connections().first()->peerCredentials();
         QVERIFY(credentials);
         QCOMPARE(credentials->uid, qint64(getuid()));
+        QCOMPARE(credentials->gid, qint64(getgid()));
         QCOMPARE(credentials->pid, qint64(getpid()));
     }
 

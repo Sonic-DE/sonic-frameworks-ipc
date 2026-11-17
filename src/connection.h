@@ -49,7 +49,8 @@ public:
         qint64 gid = -1;
         /*!
          * \variable Sonic::Ipc::Connection::PeerCredentials::pid
-         * The peer's process ID; -1 where the platform doesn't report it (BSD).
+         * The peer's process ID; -1 where the platform doesn't report it (BSDs other than
+         * FreeBSD).
          */
         qint64 pid = -1;
     };
